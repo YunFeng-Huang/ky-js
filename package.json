@@ -1,13 +1,13 @@
 {
-  "name": "yf-redis-sitemap",
-  "version": "1.0.7",
+  "name": "ky-js",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cleanLib": "./node_modules/.bin/rimraf lib",
     "bableBuild": "./node_modules/.bin/babel src --out-dir lib",
-    "prepublish": "npm run cleanLib && npm run bableBuild"
+    "build": "npm run cleanLib && npm run bableBuild"
   },
   "repository": {
     "type": "git",
